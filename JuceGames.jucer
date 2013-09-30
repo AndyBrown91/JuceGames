@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="iUYk73" name="JuceGames" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="com.yourcompany.JuceGames" includeBinaryInAppConfig="1"
+              jucerVersion="3.1.0">
+  <MAINGROUP id="YFabYm" name="JuceGames">
+    <GROUP id="{5F2B6FBB-CC11-0836-C58A-596CB812BB82}" name="Source">
+      <FILE id="fSTv2H" name="Frogger.cpp" compile="1" resource="0" file="Source/Frogger.cpp"/>
+      <FILE id="nD2UGS" name="Frogger.h" compile="0" resource="0" file="Source/Frogger.h"/>
+      <FILE id="XDGMD8" name="GameClass.h" compile="0" resource="0" file="Source/GameClass.h"/>
+      <FILE id="aQ0kPt" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="fTPe2k" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="TFLaoD" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_gui_audio" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_box2d" showAllCode="1" useLocalCopy="1"/>
+  </MODULES>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX" juceFolder="../../Programming/juce/modules">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                       isDebug="1" optimisation="1" targetName="JuceGames"/>
+        <CONFIGURATION name="Release" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                       isDebug="0" optimisation="2" targetName="JuceGames"/>
+      </CONFIGURATIONS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
